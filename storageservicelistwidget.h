@@ -22,10 +22,10 @@
 #ifndef STORAGESERVICELISTWIDGET_H
 #define STORAGESERVICELISTWIDGET_H
 
-#include <QListWidget>
+#include "pimcommon/storageservice/storageservicelistwidget.h"
 #include "pimcommon/storageservice/storageserviceabstract.h"
 
-class StorageServiceListWidget : public QListWidget
+class StorageServiceListWidget : public PimCommon::StorageServiceListWidget
 {
     Q_OBJECT
 public:
