@@ -21,11 +21,11 @@
 #include "storageservicenavigationbuttontest.h"
 #include "../storageservicenavigationbuttons.h"
 
-#include <QAction>
-#include <qtest_kde.h>
+#include <qtest.h>
 #include <qtestmouse.h>
 #include <qtestkeyboard.h>
-
+#include <QAction>
+#include <QSignalSpy>
 Q_DECLARE_METATYPE(InformationUrl)
 StorageServiceNavigationButtonTest::StorageServiceNavigationButtonTest()
 {
@@ -254,4 +254,4 @@ void StorageServiceNavigationButtonTest::shouldMoveInfoToTopWhenClickOnBackAndAf
 
 
 
-QTEST_KDEMAIN( StorageServiceNavigationButtonTest, GUI )
+QTEST_MAIN( StorageServiceNavigationButtonTest )
