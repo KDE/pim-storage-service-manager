@@ -1,5 +1,5 @@
 include_directories( 
-    ${storageservicemanager_BINARY_DIR}/src
+    ${pim-storage-service-manager_BINARY_DIR}/src
     )
 
 
@@ -16,10 +16,10 @@ add_storageservice_unittest(navigationbuttontest
     storageservicenavigationbuttontest.cpp
     ../storageservicenavigationbuttons.cpp
     ../storageservicemanagerutil.cpp
-    ${storageservicemanager_BINARY_DIR}/src/storageservicemanager_debug.cpp
+    ${pim-storage-service-manager_BINARY_DIR}/src/storageservicemanager_debug.cpp
     )
 add_storageservice_unittest(configurestoragewidgettest
     storageserviceconfigurestoragewidgettest.cpp
     ../storageserviceconfigurestoragewidget.cpp
-    ${storageservicemanager_BINARY_DIR}/src/storageservicemanager_debug.cpp
+    ${pim-storage-service-manager_BINARY_DIR}/src/storageservicemanager_debug.cpp
     )

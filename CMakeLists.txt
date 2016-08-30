@@ -1,4 +1,4 @@
-project( storageservicemanager )
+project( pim-storage-service-manager )
 
 cmake_minimum_required(VERSION 3.1)
 
@@ -69,7 +69,7 @@ find_package(KF5PimTextEdit ${KPIMTEXTEDIT_LIB_VERSION} CONFIG REQUIRED)
 find_package(KF5Libkdepim ${LIBKDEPIM_LIB_VERSION_LIB} CONFIG REQUIRED)
 find_package(KF5PimCommon ${PIMCOMMON_LIB_VERSION_LIB} CONFIG REQUIRED)
 
-include_directories(${storageservicemanager_SOURCE_DIR} ${storageservicemanager_BINARY_DIR})
+include_directories(${pim-storage-service-manager_SOURCE_DIR} ${pim-storage-service-manager_BINARY_DIR})
 
 add_definitions(-DQT_NO_URL_CAST_FROM_STRING)
 add_definitions(-DQT_USE_QSTRINGBUILDER)
