@@ -32,12 +32,12 @@
 
 int main(int argc, char **argv)
 {
+    QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
     QApplication app(argc, argv);
 
     KLocalizedString::setApplicationDomain("storageservicemanager");
 
     app.setAttribute(Qt::AA_UseHighDpiPixmaps, true);
-    app.setAttribute(Qt::AA_EnableHighDpiScaling);
     KCrash::initialize();
     Kdelibs4ConfigMigrator migrate(QStringLiteral("storageservice"));
     migrate.setConfigFiles(QStringList() << QStringLiteral("storageservicerc") << QStringLiteral("storageservicemanager.notifyrc"));
