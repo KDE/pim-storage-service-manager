@@ -24,7 +24,7 @@ set(storageservicemanager_SRCS
     )
 qt5_add_resources(storageservicemanager_SRCS storageservicemanager.qrc)
 
-ecm_qt_declare_logging_category(storageservicemanager_SRCS HEADER storageservicemanager_debug.h IDENTIFIER STORAGESERVICEMANAGER_LOG CATEGORY_NAME log_storageservicemanager)
+ecm_qt_declare_logging_category(storageservicemanager_SRCS HEADER storageservicemanager_debug.h IDENTIFIER STORAGESERVICEMANAGER_LOG CATEGORY_NAME org.kde.pim.storageservicemanager)
 
 add_executable(storageservicemanager ${storageservicemanager_SRCS} )
 target_link_libraries(storageservicemanager 
