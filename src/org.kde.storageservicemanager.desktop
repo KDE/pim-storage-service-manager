@@ -1,6 +1,5 @@
 [Desktop Entry]
 Name=Cloud Storage Manager
-Name[ast]=Xestor d'almacenamientu na ñube
 Name[ca]=Gestor de l'emmagatzematge al núvol
 Name[ca@valencia]=Gestor de l'emmagatzematge al núvol
 Name[cs]=Správce úložiště Cloudu
@@ -40,7 +39,6 @@ Exec=storageservicemanager
 Icon=kmail
 X-DocPath=storageservicemanager/index.html
 GenericName=Cloud Storage Manager
-GenericName[ast]=Xestor d'almacenamientu na ñube
 GenericName[ca]=Gestor de l'emmagatzematge al núvol
 GenericName[ca@valencia]=Gestor de l'emmagatzematge al núvol
 GenericName[cs]=Správce úložiště Cloudu
