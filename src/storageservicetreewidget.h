@@ -28,7 +28,7 @@ class StorageServiceTreeWidget : public PimCommon::StorageServiceTreeWidget
 {
     Q_OBJECT
 public:
-    explicit StorageServiceTreeWidget(PimCommon::StorageServiceAbstract *storageService, QWidget *parent = Q_NULLPTR);
+    explicit StorageServiceTreeWidget(PimCommon::StorageServiceAbstract *storageService, QWidget *parent = nullptr);
     ~StorageServiceTreeWidget();
 
     void setIsInitialized();

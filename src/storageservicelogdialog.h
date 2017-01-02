@@ -31,7 +31,7 @@ class StorageServiceLogDialog : public QDialog
 {
     Q_OBJECT
 public:
-    explicit StorageServiceLogDialog(QWidget *parent = Q_NULLPTR);
+    explicit StorageServiceLogDialog(QWidget *parent = nullptr);
     ~StorageServiceLogDialog();
 
     void setLog(const QString &log);

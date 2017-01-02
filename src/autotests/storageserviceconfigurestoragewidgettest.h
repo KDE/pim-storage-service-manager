@@ -27,7 +27,7 @@ class StorageServiceConfigureStorageWidgetTest : public QObject
 {
     Q_OBJECT
 public:
-    explicit StorageServiceConfigureStorageWidgetTest(QObject *parent = Q_NULLPTR);
+    explicit StorageServiceConfigureStorageWidgetTest(QObject *parent = nullptr);
     ~StorageServiceConfigureStorageWidgetTest();
 private Q_SLOTS:
     void shouldHaveDefaultValue();
