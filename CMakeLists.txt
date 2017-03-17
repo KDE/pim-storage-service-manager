@@ -65,6 +65,7 @@ find_package(KF5Notifications ${KF5_VERSION} REQUIRED)
 # Find KdepimLibs Package
 find_package(KF5PimTextEdit ${KPIMTEXTEDIT_LIB_VERSION} CONFIG REQUIRED)
 
+find_package(KF5IMAP ${KDEPIM_VERSION_NUMBER} REQUIRED)
 
 find_package(KF5Libkdepim ${LIBKDEPIM_LIB_VERSION_LIB} CONFIG REQUIRED)
 find_package(KF5PimCommon ${PIMCOMMON_LIB_VERSION_LIB} CONFIG REQUIRED)
